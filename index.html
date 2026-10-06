@@ -1,10 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+    <title>Gisa Web Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 25px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            width: 240px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #2563eb;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello! Welcome to my website</h1>
-    <p>This is my first website.</p>
+
+<header>
+    <h1>Gisa Web Design</h1>
+    <p>Simple and professional websites for businesses and individuals.</p>
+    <a class="button" href="#contact">Contact Me</a>
+</header>
+
+<section>
+    <h2>What I Can Do</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Business Websites</h3>
+            <p>Professional websites for small businesses.</p>
+        </div>
+
+        <div class="card">
+            <h3>Personal Websites</h3>
+            <p>Clean websites for portfolios and personal projects.</p>
+        </div>
+
+        <div class="card">
+            <h3>Website Updates</h3>
+            <p>I can help improve and update existing websites.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Want a Website?</h2>
+    <p>Contact me to discuss your website idea.</p>
+    <a class="button" href="mailto:your-email@example.com">
+        Email Me
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Gisa Web Design</p>
+</footer>
+
 </body>
 </html>
